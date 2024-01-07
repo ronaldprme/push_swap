@@ -6,7 +6,7 @@
 /*   By: rprocopi <mailto:rprocopi@student.42lis    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 19:35:58 by rprocopi          #+#    #+#             */
-/*   Updated: 2024/01/06 16:23:01 by rprocopi         ###   ########.fr       */
+/*   Updated: 2024/01/07 13:06:05 by rprocopi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,9 @@ typedef struct s_stack_node
 //error handlingS
 int				error_syntax(char *str);
 int				error_duplicate(t_stack_node *a, int n);
+void			exit_errors(t_stack_node **a);
 void			clean_stack(t_stack_node **stack);
 void			free_av(char **arr);
-void			exit_errors(t_stack_node **a);
 
 //stack init
 void			stack_init(t_stack_node **a, char **av);

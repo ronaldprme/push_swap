@@ -6,7 +6,7 @@
 /*   By: rprocopi <mailto:rprocopi@student.42lis    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 19:36:58 by rprocopi          #+#    #+#             */
-/*   Updated: 2024/01/06 16:25:30 by rprocopi         ###   ########.fr       */
+/*   Updated: 2024/01/07 12:24:22 by rprocopi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,10 @@ void	set_cheapest(t_stack_node *stack)
 			cheapest_node = stack;
 		}
 		stack = stack->next_node;
+		//printf("mid [%i] index[%i] nbr:[%i]push_cost: %i\n",
+		//stack->above_mid, stack->index, stack->nbr, stack->push_cost);
 	}
+	
 	cheapest_node->cheapest = 1;
 }
 

@@ -6,7 +6,7 @@
 /*   By: rprocopi <mailto:rprocopi@student.42lis    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 19:37:42 by rprocopi          #+#    #+#             */
-/*   Updated: 2024/01/06 16:26:47 by rprocopi         ###   ########.fr       */
+/*   Updated: 2024/01/07 13:58:20 by rprocopi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,3 +43,4 @@ void	ss(t_stack_node **a, t_stack_node **b)
 	swap(b);
 	ft_printf("ss\n");
 }
+	

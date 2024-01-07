@@ -6,7 +6,7 @@
 /*   By: rprocopi <mailto:rprocopi@student.42lis    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 19:37:19 by rprocopi          #+#    #+#             */
-/*   Updated: 2024/01/06 16:26:06 by rprocopi         ###   ########.fr       */
+/*   Updated: 2024/01/07 10:32:04 by rprocopi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ void	create_node(t_stack_node **a, int n)
 		return ;
 	newnode->next_node = NULL;
 	newnode->nbr = n;
+	//newnode->cheapest = 0;
 	if (!(*a))
 	{
 		*a = newnode;
